@@ -9,11 +9,12 @@ public class DescuentosEnPeliculas {
 	float ticketPrice = 7F;
 	
 	if (age >= 60) {
-		ticketPrice *= 0.55F;
+		ticketPrice *= 0.45F;
 		
 	} else if (age <= 5) {
-		ticketPrice *= 0.60F;	
+		ticketPrice *= 0.40F;	
 	} 
+
 System.out.println("El precio de tu ticket es: $" + ticketPrice);
 in.close();
 	}
